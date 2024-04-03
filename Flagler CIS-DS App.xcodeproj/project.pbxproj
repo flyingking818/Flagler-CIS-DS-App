@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DADEAD32BBC5D1900CDD525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DADEAD22BBC5D1900CDD525 /* AppDelegate.swift */; };
+		2DADEAD52BBC5D1900CDD525 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DADEAD42BBC5D1900CDD525 /* SceneDelegate.swift */; };
+		2DADEAD72BBC5D1900CDD525 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DADEAD62BBC5D1900CDD525 /* HomeViewController.swift */; };
+		2DADEADA2BBC5D1900CDD525 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2DADEAD92BBC5D1900CDD525 /* Base */; };
+		2DADEADC2BBC5D1D00CDD525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DADEADB2BBC5D1D00CDD525 /* Assets.xcassets */; };
+		2DADEADF2BBC5D1D00CDD525 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2DADEADE2BBC5D1D00CDD525 /* Base */; };
+		2DADEAE72BBC5EDC00CDD525 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DADEAE62BBC5EDC00CDD525 /* RegisterViewController.swift */; };
+		2DADEAE92BBC5F8E00CDD525 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DADEAE82BBC5F8E00CDD525 /* LoginViewController.swift */; };
+		2DADEAEB2BBC606600CDD525 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DADEAEA2BBC606600CDD525 /* WelcomeViewController.swift */; };
+		EBC8845DC5ADFEC640841DF0 /* Pods_Flagler_CIS_DS_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B192A9A28B1FC2B6262B1D /* Pods_Flagler_CIS_DS_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DADEACF2BBC5D1900CDD525 /* Flagler CIS-DS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flagler CIS-DS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DADEAD22BBC5D1900CDD525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DADEAD42BBC5D1900CDD525 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2DADEAD62BBC5D1900CDD525 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2DADEAD92BBC5D1900CDD525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DADEADB2BBC5D1D00CDD525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DADEADE2BBC5D1D00CDD525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DADEAE02BBC5D1D00CDD525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DADEAE62BBC5EDC00CDD525 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2DADEAE82BBC5F8E00CDD525 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2DADEAEA2BBC606600CDD525 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		BB1012EE73DBD3C87BCAC483 /* Pods-Flagler CIS-DS App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flagler CIS-DS App.release.xcconfig"; path = "Target Support Files/Pods-Flagler CIS-DS App/Pods-Flagler CIS-DS App.release.xcconfig"; sourceTree = "<group>"; };
+		C5B192A9A28B1FC2B6262B1D /* Pods_Flagler_CIS_DS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flagler_CIS_DS_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD22E5C0B56DCF07674AC4E3 /* Pods-Flagler CIS-DS App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flagler CIS-DS App.debug.xcconfig"; path = "Target Support Files/Pods-Flagler CIS-DS App/Pods-Flagler CIS-DS App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DADEACC2BBC5D1900CDD525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC8845DC5ADFEC640841DF0 /* Pods_Flagler_CIS_DS_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DADEAC62BBC5D1900CDD525 = {
+			isa = PBXGroup;
+			children = (
+				2DADEAD12BBC5D1900CDD525 /* Flagler CIS-DS App */,
+				2DADEAD02BBC5D1900CDD525 /* Products */,
+				77763757A69247DDC88D5CF5 /* Pods */,
+				6D33B8763483AE4FA49813EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2DADEAD02BBC5D1900CDD525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DADEACF2BBC5D1900CDD525 /* Flagler CIS-DS App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DADEAD12BBC5D1900CDD525 /* Flagler CIS-DS App */ = {
+			isa = PBXGroup;
+			children = (
+				2DADEAD22BBC5D1900CDD525 /* AppDelegate.swift */,
+				2DADEAD42BBC5D1900CDD525 /* SceneDelegate.swift */,
+				2DADEAD62BBC5D1900CDD525 /* HomeViewController.swift */,
+				2DADEAE62BBC5EDC00CDD525 /* RegisterViewController.swift */,
+				2DADEAE82BBC5F8E00CDD525 /* LoginViewController.swift */,
+				2DADEAEA2BBC606600CDD525 /* WelcomeViewController.swift */,
+				2DADEAD82BBC5D1900CDD525 /* Main.storyboard */,
+				2DADEADB2BBC5D1D00CDD525 /* Assets.xcassets */,
+				2DADEADD2BBC5D1D00CDD525 /* LaunchScreen.storyboard */,
+				2DADEAE02BBC5D1D00CDD525 /* Info.plist */,
+			);
+			path = "Flagler CIS-DS App";
+			sourceTree = "<group>";
+		};
+		6D33B8763483AE4FA49813EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5B192A9A28B1FC2B6262B1D /* Pods_Flagler_CIS_DS_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77763757A69247DDC88D5CF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD22E5C0B56DCF07674AC4E3 /* Pods-Flagler CIS-DS App.debug.xcconfig */,
+				BB1012EE73DBD3C87BCAC483 /* Pods-Flagler CIS-DS App.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DADEACE2BBC5D1900CDD525 /* Flagler CIS-DS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DADEAE32BBC5D1D00CDD525 /* Build configuration list for PBXNativeTarget "Flagler CIS-DS App" */;
+			buildPhases = (
+				E00624BA0C72A07556AEEE70 /* [CP] Check Pods Manifest.lock */,
+				2DADEACB2BBC5D1900CDD525 /* Sources */,
+				2DADEACC2BBC5D1900CDD525 /* Frameworks */,
+				2DADEACD2BBC5D1900CDD525 /* Resources */,
+				2F4CFB559E641FF8DA301225 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flagler CIS-DS App";
+			productName = "Flagler CIS-DS App";
+			productReference = 2DADEACF2BBC5D1900CDD525 /* Flagler CIS-DS App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DADEAC72BBC5D1900CDD525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2DADEACE2BBC5D1900CDD525 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 2DADEACA2BBC5D1900CDD525 /* Build configuration list for PBXProject "Flagler CIS-DS App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DADEAC62BBC5D1900CDD525;
+			productRefGroup = 2DADEAD02BBC5D1900CDD525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DADEACE2BBC5D1900CDD525 /* Flagler CIS-DS App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DADEACD2BBC5D1900CDD525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DADEADC2BBC5D1D00CDD525 /* Assets.xcassets in Resources */,
+				2DADEADF2BBC5D1D00CDD525 /* Base in Resources */,
+				2DADEADA2BBC5D1900CDD525 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F4CFB559E641FF8DA301225 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flagler CIS-DS App/Pods-Flagler CIS-DS App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flagler CIS-DS App/Pods-Flagler CIS-DS App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flagler CIS-DS App/Pods-Flagler CIS-DS App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E00624BA0C72A07556AEEE70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flagler CIS-DS App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DADEACB2BBC5D1900CDD525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DADEAD72BBC5D1900CDD525 /* HomeViewController.swift in Sources */,
+				2DADEAD32BBC5D1900CDD525 /* AppDelegate.swift in Sources */,
+				2DADEAD52BBC5D1900CDD525 /* SceneDelegate.swift in Sources */,
+				2DADEAEB2BBC606600CDD525 /* WelcomeViewController.swift in Sources */,
+				2DADEAE92BBC5F8E00CDD525 /* LoginViewController.swift in Sources */,
+				2DADEAE72BBC5EDC00CDD525 /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DADEAD82BBC5D1900CDD525 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DADEAD92BBC5D1900CDD525 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DADEADD2BBC5D1D00CDD525 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DADEADE2BBC5D1D00CDD525 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DADEAE12BBC5D1D00CDD525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DADEAE22BBC5D1D00CDD525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DADEAE42BBC5D1D00CDD525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD22E5C0B56DCF07674AC4E3 /* Pods-Flagler CIS-DS App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Flagler CIS-DS App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremyfeiwang.Flagler-CIS-DS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DADEAE52BBC5D1D00CDD525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB1012EE73DBD3C87BCAC483 /* Pods-Flagler CIS-DS App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Flagler CIS-DS App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremyfeiwang.Flagler-CIS-DS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DADEACA2BBC5D1900CDD525 /* Build configuration list for PBXProject "Flagler CIS-DS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DADEAE12BBC5D1D00CDD525 /* Debug */,
+				2DADEAE22BBC5D1D00CDD525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DADEAE32BBC5D1D00CDD525 /* Build configuration list for PBXNativeTarget "Flagler CIS-DS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DADEAE42BBC5D1D00CDD525 /* Debug */,
+				2DADEAE52BBC5D1D00CDD525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DADEAC72BBC5D1900CDD525 /* Project object */;
+}
