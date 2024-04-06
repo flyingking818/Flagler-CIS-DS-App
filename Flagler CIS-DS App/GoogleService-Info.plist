@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAOoXn2UQ0E3P2L6ENDKeSNMp1LP_Vdlus</string>
+	<key>GCM_SENDER_ID</key>
+	<string>73470988390</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jeremyfeiwang</string>
+	<key>PROJECT_ID</key>
+	<string>flaglerapp-a69fd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>flaglerapp-a69fd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:73470988390:ios:c991de2a870f57f4785da7</string>
+</dict>
+</plist>
